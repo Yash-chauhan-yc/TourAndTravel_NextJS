@@ -1,0 +1,118 @@
+.contact_area {
+}
+
+#contact {
+  padding-bottom: 0;
+}
+
+.custom-padding {
+  padding: 80px;
+}
+/* .contact_address {
+  margin-bottom: 30px;
+  padding-left: 30px;
+} */
+
+.single-contact-info {
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+.contact_address i {
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  background: linear-gradient(
+    to right,
+    #f05942,
+    #ed4f42,
+    #ed4745,
+    #eb4149,
+    #ea3248
+  );
+  color: #fff;
+  border-radius: 50%;
+  font-size: 16px;
+  margin-bottom: 15px;
+  text-align: center;
+  float: left;
+  margin-right: 24px;
+  margin-top: 8px;
+}
+.contact .form-control {
+  padding: 22px 15px;
+  border-radius: 0px;
+  background-color: #f1f6f9;
+  border-color: #f1f6f9;
+  margin-bottom: 15px;
+}
+.contact .form-control:focus {
+  border-color: #f05942;
+  box-shadow: none;
+  outline: 0 none;
+}
+.contact textarea {
+  background: #fff none repeat scroll 0 0;
+  border-radius: 0px;
+  box-shadow: none;
+  padding: 10px;
+  height: 100px;
+}
+.contact textarea:focus {
+  box-shadow: none;
+  outline: 0 none;
+}
+/* .success {
+  background: #fff none repeat scroll 0 0;
+  color: #42c0d9;
+  font-weight: 700;
+  padding: 20px;
+  text-align: center;
+} */
+
+#submitButton {
+  background: linear-gradient(
+    to right,
+    #f05942,
+    #ed4f42,
+    #ed4745,
+    #eb4149,
+    #ea3248
+  );
+  border: 1px solid #f05942 !important;
+  color: #fff !important;
+  padding: 12px 27px !important;
+  text-transform: capitalize;
+  transition: all 0.2s ease 0s;
+  border-radius: 0;
+  text-align: center;
+  cursor: pointer;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+#submitButton:hover,
+#submitButton:focus {
+  background: linear-gradient(
+    to right,
+    #f05942,
+    #ed4f42,
+    #ed4745,
+    #eb4149,
+    #ea3248
+  );
+  border: 1px solid #ed4f42 !important;
+  color: #fff;
+}
+
+.google-map {
+  margin-top: 40px;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+  iframe {
+    width: 100%; /* Set the width to 100% to make it responsive */
+    height: 300px; /* Adjust the height as needed for mobile */
+  }
+}

@@ -1,0 +1,151 @@
+.blog_section {
+  padding-top: 100px;
+  padding-bottom: 70px;
+}
+img {
+  max-width: 100%;
+}
+.blog {
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.07);
+  overflow: hidden;
+}
+/* .post_date {
+  background: #f05942;
+  color: #fff;
+  padding: 5px 20px;
+  margin-bottom: 0px;
+  display: inline-block;
+  font-size: 12px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  margin: 10px 10px 0 0;
+  z-index: 99;
+  border-radius: 0px;
+  font-weight: 700;
+} */
+
+.blog-text {
+  padding: 10px 30px 30px;
+}
+.post-meta {
+  margin-top: 15px;
+  font-size: 14px;
+}
+.post-meta span {
+  margin-right: 10px;
+}
+.post-meta span i {
+  color: #f05942;
+  padding-right: 8px;
+}
+.blog-text h4 {
+  line-height: 26px;
+}
+/* .blog h4 a {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #333;
+} */
+/* .blog h4 a {
+  transition: 0.5s;
+}
+.blog h4 a:hover {
+  color: #f05942;
+} */
+/* .blog-photo {
+} */
+.blog-image {
+  position: relative;
+  margin-bottom: 15px;
+}
+/* .blog:hover .blog-image:before {
+  opacity: 1;
+}
+
+.comment-box {
+  padding: 0 !important;
+}
+
+.blog_sidebar_title {
+  margin-bottom: 25px;
+}
+.search input {
+  border: 1px solid #eee;
+  border-radius: 30px;
+  box-shadow: none;
+  color: #333;
+  height: 45px;
+}
+.search input:hover,
+.search input:focus {
+  border: 1px solid #f05942;
+  box-shadow: none;
+}
+.search,
+.video_post,
+.categories {
+  margin-bottom: 30px;
+}
+.categories ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.categories ul li {
+}
+.categories ul li a {
+  color: #333;
+  display: block;
+  font-size: 12px;
+  font-weight: 300;
+  padding: 5px 0;
+  text-transform: uppercase;
+}
+.categories ul li a:hover {
+  color: #f05942;
+}
+.categories ul li a i {
+  margin-right: 10px;
+}
+.video_post iframe {
+  width: 100%;
+  height: 220px;
+  border: medium none;
+}
+.tag a {
+  margin-bottom: 10px;
+  margin-right: 5px;
+}
+.btn-tag-bg {
+  background: #fff none repeat scroll 0 0;
+  border: 1px solid #eee;
+  border-radius: 30px;
+  color: #333;
+  display: inline-block;
+  font-size: 12px;
+  outline: medium none;
+  padding: 15px 27px;
+  text-transform: uppercase;
+  transition: all 0.2s ease 0s;
+}
+.btn-tag-bg:hover,
+.btn-tag-bg:focus {
+  background: #f05942;
+  border: 1px solid #f05942;
+  color: #fff;
+} */
+
+@media screen and (max-width: 767px) {
+  .blog_section {
+	margin-top: 400px;
+  }
+
+  .media{
+	display: inline-block !important;
+  }
+}

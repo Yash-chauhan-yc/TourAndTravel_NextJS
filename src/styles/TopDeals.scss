@@ -1,0 +1,99 @@
+.margin_0 {
+  margin: 100px;
+}
+
+.no-padding {
+  padding: 80px;
+}
+
+.padding_0 {
+  padding: 0;
+}
+.deal {
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.07);
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.deal figure {
+  position: relative;
+  text-align: center;
+  margin: 0;
+}
+.deal figure img {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+.deal figcaption {
+  overflow: hidden;
+  padding: 15px 30px;
+  text-align: left;
+  background-color: #fff;
+  transition: 0.2s;
+}
+.deal:hover figcaption {
+  background: linear-gradient(
+    to right,
+    #f05942,
+    #ed4f42,
+    #ed4745,
+    #eb4149,
+    #ea3248
+  );
+  color: #fff;
+}
+.deal:hover figcaption h4 {
+  color: #fff;
+}
+.deal:hover a {
+  background: #fff;
+  color: #f05942;
+}
+.deal figcaption .pull-left {
+  padding-right: 10px;
+  float: left;
+}
+.deal figcaption .pull-right {
+  padding-left: 10px;
+  float: right;
+}
+.deal h4 {
+  margin-bottom: 2px;
+  font-size: 18px;
+  text-align: left;
+  transition: 0.2s;
+}
+.deal p {
+  margin-bottom: 0;
+  font-size: 15px;
+}
+
+.deal a {
+  background: linear-gradient(
+    to right,
+    #f05942,
+    #ed4f42,
+    #ed4745,
+    #eb4149,
+    #ea3248
+  );
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.icon {
+  font-size: 20px;
+}
+
+.btn-primary {
+  --bs-btn-border-color: none;
+}

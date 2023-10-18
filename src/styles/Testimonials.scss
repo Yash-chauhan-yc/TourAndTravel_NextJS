@@ -1,0 +1,116 @@
+.testimonial .white-title h2{
+	color: #fff;
+}
+
+.testimonial{ 
+	position: relative;
+	z-index: 9;
+}
+#testimonial-slider{
+
+}
+.testimonial{
+	padding-top: 50px;
+	background-image: url(../assets/pngkey.com-thing-1-and-thing-462857.png) ,url(../assets/bg/section-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+/* .single {
+    color: #fff;
+	padding: 30px 25px;
+} */
+.testimonial-content{
+	margin-bottom: 20px;
+	font-weight: 600;
+}
+.testimonial .title{
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin: 0 0 5px 0;
+}
+ 
+.single-testimonial{
+	padding: 30px 25px;
+	border-radius: 4px;
+	background: linear-gradient(to right, #f05942, #ed4f42, #ed4745, #eb4149,#ea3248);
+	color: #fff;
+	border-radius: 4px;
+	box-shadow: 0 0 40px rgba(0, 0, 0, 0.07);
+	cursor: pointer;
+	transition: transform 0.5s ease;
+}
+
+/* Keyframe animation for sliding */
+@keyframes slide {
+	0% {
+	  transform: translateX(0);
+	}
+	33.33% {
+	  transform: translateX(-100%);
+	}
+	66.66% {
+	  transform: translateX(-200%);
+	}
+	100% {
+	  transform: translateX(-300%);
+	}
+  }
+  
+  /* Apply animation to the slide class */
+  .single-testimonial {
+	animation: slide 9s infinite;
+  }
+
+.test-rating {
+	color: #ffc000;
+	font-size: 14px;
+}
+
+.image{	
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	margin-bottom: 5px;
+	display: inline-block;
+	border: inherit;
+} 
+
+/* #testimonial-slider .owl-controls{
+	position: absolute;
+	top: 40%;
+	width: 100%;
+	margin: 0;
+}
+
+#testimonial-slider .owl-nav div{
+	width: 50px;
+	height: 50px;
+	line-height: 45px;
+	border-radius: 50%;
+	background: #fff;
+	position: absolute;
+	color: #f05942;
+	font-size: 20px;
+}
+#testimonial-slider .owl-controls .owl-prev{
+	left: -5%;
+}
+#testimonial-slider .owl-controls .owl-next{
+	right: -5%;
+} */
+
+
+.react-multi-carousel-item{
+	padding: 20px;
+}
+
+
+.react-multi-carousel-arrow {
+  display: none !important; /* Hide the arrows */
+}

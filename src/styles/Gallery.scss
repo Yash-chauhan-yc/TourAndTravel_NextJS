@@ -1,0 +1,197 @@
+.our_gallery .container-fluid {
+}
+.img-gallery {
+}
+
+.single_gallery {
+  position: relative;
+}
+.single_gallery img{
+  max-width: 100%;
+}
+
+.slick-track{
+  display: flex;
+}
+
+.single_gallery h4 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: #f05942;
+  z-index: 99;
+  font-size: 12px;
+  background: #fff;
+  padding: 5px 12px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  border-radius: 3px;
+}
+
+.gallery_enlarge_icon {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  color: #fff;
+  background: linear-gradient(
+    to right,
+    #f05942,
+    #ed4f42,
+    #ed4745,
+    #eb4149,
+    #ea3248
+  );
+  border-radius: 50%;
+  text-align: center;
+}
+.gallery_enlarge_icon:hover,
+.gallery_enlarge_icon:focus {
+  background: linear-gradient(
+    to right,
+    #f45a43,
+    #f25144,
+    #f04846,
+    #f05942,
+    #eb3449
+  );
+  color: #fff;
+}
+.single_gallery img {
+  max-width: 100%;
+  height: auto;
+  border: inherit !important;
+}
+.our_gallery .owl-controls .owl-buttons div {
+  background: #f05942;
+  width: 40px;
+  height: 40px;
+  line-height: 35px;
+  border: 1px solid #f05942;
+  opacity: 0.8;
+  transition: 0.5s;
+  color: #fff;
+}
+.our_gallery .owl-controls .owl-buttons div:hover,
+.our_gallery .owl-controls .owl-buttons div:focus {
+  background: #fff;
+  color: #202020;
+}
+
+#gallery-slider .slick-dots {
+  bottom: -37px;
+}
+#gallery-slider .slick-dots button {
+  width: 12px;
+  height: 12px;
+  background: linear-gradient(
+    to right,
+    #f45a43,
+    #f25144,
+    #f04846,
+    #f05942,
+    #eb3449
+  );
+  border-radius: 50%;
+  box-shadow: 0 0 15px #ddd;
+}
+#gallery-slider .slick-dots li {
+  margin: 0 2px;
+}
+#gallery-slider .slick-dots li button:before {
+  color: transparent;
+}
+#gallery-slider .slick-dots li.slick-active button {
+  background: #333;
+}
+
+
+.slick-slider img {
+  max-height: 80%; /* Adjust the max-height as needed */
+  object-fit: cover;
+}
+
+
+@media (max-width: 768px) {
+  .our_gallery .container-fluid {
+    /* Adjust styles for mobile container if needed */
+    height: 50px;
+  }
+
+  .single_gallery img {
+    max-width: 100%;
+    height: auto; /* Allow the image height to adjust proportionally */
+    border: inherit !important;
+  }
+
+  .single_gallery h4 {
+    font-size: 10px; /* Reduce the font size for mobile */
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  .gallery_enlarge_icon {
+    width: 40px; /* Reduce the size for mobile */
+    height: 40px; /* Reduce the size for mobile */
+    line-height: 40px; /* Reduce the size for mobile */
+  }
+}
+
+
+
+.expanded-image-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9); /* Semi-transparent background for the modal */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999; /* Ensure it appears on top of everything */
+  cursor: pointer;
+}
+
+.expanded-image {
+  max-width: 90%; /* Adjust the max width as needed */
+  max-height: 90vh; /* Adjust the max height as needed */
+  object-fit: contain; /* Maintain image aspect ratio */
+}
+
+/* Close Button Styles (Optional) */
+.close-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 24px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.close-button:hover {
+  color: red; /* Change color on hover */
+}
+
+/* If you want to center the expanded image within the modal */
+.center-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery_enlarge_icon,
+.pack_image .btn-bg{
+	z-index: 1;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	opacity: 0;
+	transition: .5s;	
+}
+
+.single_package:hover .btn-bg,
+.single_gallery:hover .gallery_enlarge_icon{
+	opacity: 1;
+}
+
