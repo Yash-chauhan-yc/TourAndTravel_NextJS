@@ -36,7 +36,7 @@ export default function Home() {
   }, [isScrolled]);
   return (
     <>
-      <AppHeader />
+      <AppHeader isScrolled={isScrolled}  />
       <Hero />
       <Service />
       <WhyChoose />

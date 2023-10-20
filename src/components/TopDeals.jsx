@@ -72,7 +72,7 @@ export default function TopDeals() {
               <Col key={item.id} sm={4} xs={12}>
                 <div className="deal">
                   <Figure className="effect-sadie">
-                    <Image className="img" src={item.image} alt={`image${item.id}`} />
+                    <Image className="imagee" src={item.image} alt={`image${item.id}`}/>
                     <FigureCaption>
                       <div className="pull-left">
                         <h4>{item.heading}</h4>

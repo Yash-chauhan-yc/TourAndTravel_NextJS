@@ -9,7 +9,7 @@ export default function Product(prop) {
   return (
     <div className="card single">
       <div className="pack_image">
-        <Image src={prop.imageURL} alt="image1" />
+        <Image className="imagee" src={prop.imageURL} alt="image1" />
       </div>
       <div className="package-hover">
         <div className="pull-left">{prop.country}</div>

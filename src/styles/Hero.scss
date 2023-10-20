@@ -1,5 +1,5 @@
 .carousel-caption {
-  top: 50%; /* Adjust the vertical position */
+  top: 50%; 
   transform: translateY(-50%);
 }
 
@@ -24,7 +24,7 @@
     0,
     0,
     0.6
-  ); /* Adjust the alpha (4th value) to control the darkness */
+  ); 
   position: absolute;
   top: 0;
   left: 0;
@@ -48,8 +48,8 @@
 
 @media (max-width: 768px) {
   .heading {
-    font-size: 40px; /* Reduce the font size for mobile */
-    margin-top: 30px; /* Adjust the top margin for mobile */
+    font-size: 40px; 
+    margin-top: 30px;
   }
 
   #home {
@@ -67,16 +67,16 @@
     height: 100vh;
 }
   .para {
-    font-size: 14px; /* Reduce the font size for mobile */
+    font-size: 14px; 
   }
 
   .transparent-button {
-    padding: 10px 20px; /* Adjust the padding for mobile */
+    padding: 10px 20px;
   }
 
   .carousel-image {
-    max-width: 100%; /* Ensure the image width scales down for mobile */
-    height: auto; /* Let the height adjust proportionally */
+    max-width: 100%; 
+    height: auto; 
   }
   
 }

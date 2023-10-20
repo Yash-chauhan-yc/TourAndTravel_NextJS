@@ -1,3 +1,4 @@
+'use client'
 import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -98,7 +99,7 @@ export default function Contact() {
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d805202.1152718647!2d144.39372013317418!3d-37.96964296983705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad646b5d2ba4df7%3A0x4045675218ccd90!2sMelbourne%20VIC%2C%20Australia!5e0!3m2!1sen!2sin!4v1697290563774!5m2!1sen!2sin"
           width="1800"
           height="450"
-          allowfullscreen=""
+          // allowfullscreen=""
           //   style="border:0;"
           // loading="lazy"
           // referrerpolicy="no-referrer-when-downgrade"x

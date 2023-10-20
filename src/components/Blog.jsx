@@ -48,7 +48,7 @@ export default function Blog() {
             <Col key={index} lg={4} md={6}>
               <div className="blog">
                 <div className="blog-image">
-                  <Image className="blog-photo img" src={post.image} alt={`Blog Post ${index + 1}`} />
+                  <Image className="blog-photo imagee" src={post.image} alt={`Blog Post ${index + 1}`} />
                 </div>
                 <div className="blog-text">
                   <h4>{post.title}</h4>

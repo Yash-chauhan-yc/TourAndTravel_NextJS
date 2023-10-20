@@ -1,5 +1,4 @@
 'use client'
-
 import React, { useState, useEffect } from "react";
 import Container from "react-bootstrap/Container";
 import { Nav, Navbar, NavDropdown } from 'react-bootstrap'
@@ -27,7 +26,7 @@ export default function AppHeader(props) {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
           <Nav className="ml-auto">
-            <Nav.Link className={`${props.isScrolled ? "navbar-fixed" : "navbar-top"}`} href="#home" >
+          <Nav.Link className={`${props.isScrolled ? "navbar-fixed" : "navbar-top"}`} href="#home" >
              Home
             </Nav.Link>
             <Nav.Link className={`${props.isScrolled ? "navbar-fixed" : "navbar-top"}`} href="#service">
@@ -40,25 +39,25 @@ export default function AppHeader(props) {
               title="Package"
               id={props.isScrolled ? `basic-nav-dropdown-fixed-1` : "basic-nav-dropdown-1"}
             >
-              <NavDropdown.Item href="#action/3.1">
+              <NavDropdown.Item href="#package">
                 Package Details
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link className={`${props.isScrolled ? "navbar-fixed" : "navbar-top"}`}  href="#link">
+            <Nav.Link className={`${props.isScrolled ? "navbar-fixed" : "navbar-top"}`}  href="#gallery">
               Gallery
             </Nav.Link>
             <NavDropdown
               title="Blog"
               id={props.isScrolled ? `basic-nav-dropdown-fixed-2` : "basic-nav-dropdown-2"}
             >
-              <NavDropdown.Item href="#action/3.1">
+              <NavDropdown.Item href="#blog">
                 Standard Blog
               </NavDropdown.Item>
               <NavDropdown.Item href="#action/3.1">
                 Blog Details
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link className={`${props.isScrolled ? "navbar-fixed" : "navbar-top"}`} href="#link">
+            <Nav.Link className={`${props.isScrolled ? "navbar-fixed" : "navbar-top"}`} href="#contact">
               Contact
             </Nav.Link>
           </Nav>

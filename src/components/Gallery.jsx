@@ -68,7 +68,7 @@ export default function Gallery() {
   };
 
   return (
-    <section id="gallery" className="our_gallery">
+    <section id="gallery" className="our_gallery section-padding">
       <ChooseHeading
         first="Tour Gallery"
         second="Best Tourist's Shared"
